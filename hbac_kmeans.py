@@ -17,10 +17,8 @@ plt.rcParams['savefig.dpi'] = 300
 
 import warnings
 warnings.filterwarnings('ignore')
-
-MODEL_MODE = 'regression'   # or 'classification'
-print_mode = False
 from hbac_utils import *
+from config import MODEL_MODE, print_mode
 
 def hbac_kmeans(data, error_scaling_factor,  max_iter=30, show_plot=True):
 

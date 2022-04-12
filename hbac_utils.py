@@ -10,13 +10,11 @@ from sklearn.cluster import MeanShift, estimate_bandwidth
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from sklearn.decomposition import PCA
 from sklearn.metrics import r2_score
-from hbac_kmeans import MODEL_MODE, print_mode
 plt.rcParams['figure.dpi'] = 300
 plt.rcParams['savefig.dpi'] = 300
-
 import warnings
 warnings.filterwarnings('ignore')
-
+from config import MODEL_MODE, print_mode
 
 
 def pca_plot(data, title, alpha):
@@ -101,13 +99,11 @@ def accuracy(results):
         print("You are calculating the accuracy on a empty cluster") if print_mode else ''
         return 0    #to prevent bug if 1 cluster
     if MODEL_MODE == 'regression':
-
         # Using R-squared as acc
         # if len(results)==0:
         #     acc = 0
         # else:
         acc = r2_score(results['true_value'], results['predicted_value'])
-
         #acc = r2_score(results['true_value'], results['predicted_value'])
         # try:
         #     acc = r2_score(results['true_value'], results['predicted_value'])
