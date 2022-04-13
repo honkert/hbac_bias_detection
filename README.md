@@ -5,7 +5,13 @@
   - Comparing distributions of discriminated and remaining data.
   - Segment predictor: trains a XGBoost binary classifier to evaluate distinguishability of discriminated and remaining data with descriptive features. 
   
-![alt text](https://github.com/honkert/hbac_error_detection/github_workflow.drawio.png?raw=true)
+![Alt text](/hbac_error_detection/github_workflow.drawio.png?raw=true "Project architecture")
+
+[//]: # (![Alt text]&#40;/relative/path/to/img.jpg?raw=true "Optional Title"&#41;)
+
+<div align="center">
+    <img src="hbac_bias_detection/github_workflow.drawio.png" width="400px"</img> 
+</div>
 
 ```python
 # Initialize HBAC 
