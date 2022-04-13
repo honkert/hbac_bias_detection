@@ -7,8 +7,8 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
 setup(
-    name="hbac_error_detection",
-    version="0.1.2",
+    name="hbac_bias_detection",
+    version="0.1.4",
     packages=find_packages(),
     # other arguments omitted
     long_description=long_description,

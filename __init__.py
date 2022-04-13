@@ -1,1 +1,1 @@
-from hbac_error_detection.hbac_error_detection import HBAC_analyser
+from hbac_bias_detection.hbac_bias_detection import HBAC_analyser
