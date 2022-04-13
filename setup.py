@@ -10,7 +10,7 @@ REQUIREMENTS = [i.strip() for i in open("requirements.txt").readlines()]
 
 setup(
     name="hbac_bias_detection",
-    version="0.1.9",
+    version="0.2.0",
     packages=find_packages(),
     # package_dir={'hbac_bias_detection': 'src'},
     #package_dir={'': 'hbac_bias_detection'},
