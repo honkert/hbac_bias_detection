@@ -13,7 +13,7 @@ class HBAC_analyser:
     def __init__(self, selected_features='all'):
         self.mean_clusters = pd.DataFrame()
         self.all_unscaled_discriminated = None
-        self.all_unscaled_discriminated = None
+        self.all_unscaled_remaining = None
         self.all_unscaled_combined = None
         # if isinstance(selected_features, list):
         self.selected_features = selected_features

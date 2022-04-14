@@ -18,6 +18,9 @@ hbac.hbac_on_model(model_path, X_test, y_test)
 hbac.pca_plot()
 discrimated_cluster, bias =  hbac.get_max_bias_cluster(print_results=True)
 
+# Get discriminated data in panda df
+hbac.all_unscaled_discriminated
+
 # Displaying results in dataframes
 hbac.clustered_data
 
