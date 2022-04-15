@@ -7,6 +7,7 @@ import shap
 from statistics import mean
 from sklearn.model_selection import train_test_split
 import xgboost as xgb
+from sklearn.cluster import KMeans
 # from config import MODEL_MODE, print_mode
 
 class HBAC_analyser:

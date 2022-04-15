@@ -9,6 +9,7 @@ import warnings
 warnings.filterwarnings('ignore')
 from hbac_bias_detection.hbac_utils import *
 from hbac_bias_detection.config import MODEL_MODE, print_mode
+
 def hbac_kmeans(data, error_scaling_factor,  max_iter=30, show_plot=True):
 
     clus_model_kwargs = {
